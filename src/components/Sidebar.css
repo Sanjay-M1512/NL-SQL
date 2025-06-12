@@ -1,0 +1,104 @@
+/* Sidebar Container */
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background: #202123;
+    color: #ffffff;
+    transition: width 0.3s ease-in-out;
+    box-shadow: 2px 0px 10px rgba(0, 255, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    position: relative;
+}
+
+/* Collapsed Sidebar */
+.sidebar.closed {
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: none;
+    border: none;
+    color: #0f0;
+    font-size: 22px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar-toggle:hover {
+    transform: scale(1.1);
+    color: #7f0;
+}
+
+/* Sidebar Title */
+.sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0f0;
+    padding-bottom: 5px;
+}
+
+/* Chat List */
+.chat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 80vh;
+    scrollbar-width: thin;
+    scrollbar-color: #0f0 #202123;
+}
+
+/* Custom Scrollbar */
+.chat-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-list::-webkit-scrollbar-track {
+    background: #202123;
+}
+
+.chat-list::-webkit-scrollbar-thumb {
+    background: #0f0;
+    border-radius: 10px;
+}
+
+/* Chat Item */
+.chat-item {
+    background: rgba(0, 255, 0, 0.1);
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid #0f0;
+}
+
+/* Chat Icon */
+.chat-icon {
+    margin-right: 10px;
+    color: #0f0;
+}
+
+/* Hover Effect */
+.chat-item:hover {
+    background: rgba(0, 255, 0, 0.2);
+    transform: scale(1.02);
+}
