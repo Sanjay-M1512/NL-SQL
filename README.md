@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 💬 Natural Language to SQL Converter 👨‍💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack AI system that converts natural language queries into SQL commands and provides query results in a user-friendly chat interface. It helps users interact with databases without needing SQL expertise.
 
-## Available Scripts
+🔗 **Live Web Version:** [https://nl-sql-sanjay-m1512s-projects.vercel.app](https://nl-sql-sanjay-m1512s-projects.vercel.app) *(Update with actual link)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Get Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Install dependencies**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+2. **Start the app**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   npx expo start
+   ```
 
-### `npm run build`
+Run the app on:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start development in the **app** folder. The app uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 Project Highlights
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🗣️ Convert natural language to SQL queries using Seq2Seq with attention (PyTorch)
+- 🧾 Execute SQL queries on the user’s connected MySQL database
+- 💬 Chat-style UI to interact with the SQL engine
+- 🔐 User authentication and profile management
+- 🧠 Language-to-SQL learning integrated with Gemini model (fallback for SQL generation)
+- 🌐 Web and mobile support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend:** React + Tailwind CSS + React Router
+- **Backend:** Flask + MongoDB Atlas
+- **AI Models:** Seq2Seq (PyTorch), Gemini API (fallback)
+- **Database:** MySQL, MongoDB Atlas
+- **Authentication:** JWT + MongoDB
+- **Deployment:** Vercel (Web), Render/EC2 (Backend)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧼 Reset the Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To clean the starter code and begin fresh:
 
-### Code Splitting
+```bash
+npm run reset-project
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📚 Learn More
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Expo documentation](https://docs.expo.dev/)
+- [React documentation](https://react.dev/)
+- [Flask documentation](https://flask.palletsprojects.com/)
+- [PyTorch docs](https://pytorch.org/docs/stable/index.html)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💬 Join the Community
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [OpenAI Community](https://community.openai.com)
+- [Python Discord](https://pythondiscord.com/)
