@@ -2,7 +2,7 @@
 
 This project is a full-stack AI system that converts natural language queries into SQL commands and provides query results in a user-friendly chat interface. It helps users interact with databases without needing SQL expertise.
 
-🔗 **Live Web Version:** [https://nl-sql-sanjay-m1512s-projects.vercel.app](https://nl-sql-sanjay-m1512s-projects.vercel.app) *(Update with actual link)*
+🔗 **Live Web Version:** [https://nl-sql-sanjay-m1512s-projects.vercel.app](https://nl-sql-sanjay-m1512s-projects.vercel.app)
 
 ---
 
